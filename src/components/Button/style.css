@@ -1,0 +1,43 @@
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    overflow: hidden;
+    transition:.2s ease-out;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+    min-width: 64px;
+    padding: 0 16px;
+    line-height: 36px;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+button.btn[disabled] {
+    cursor: auto;
+}
+
+
+.btn__background--default {
+    background: rgba(158,158,158,.2);
+    color: #000;
+}
+
+.btn__background--green {
+    background-color: var(--green);
+    color: #fff;
+}
