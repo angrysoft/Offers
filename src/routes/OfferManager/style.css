@@ -1,0 +1,7 @@
+#offers-manager {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "menu main";
+    height: 100vh;
+    width: 100%;
+}

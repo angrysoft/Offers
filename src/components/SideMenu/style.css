@@ -1,0 +1,30 @@
+#side-menu {
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr 1fr;
+    grid-area: menu;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.87);
+    z-index: 1;
+    background-color: rgb(34,165,78);
+    background-image: url('../../assets/nav_nachos@2x.png');
+    background-size: cover;
+    color: rgb(255,255,255);
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.56);
+}
+
+#actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0;
+    border-top: 2px solid rgb(45 213 101);
+    border-bottom: 2px solid rgb(45 213 101);
+}
+
+#user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

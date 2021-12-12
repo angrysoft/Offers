@@ -1,0 +1,10 @@
+.action {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.action:hover {
+    background-color: rgba(0,67,255,0.15);
+}
